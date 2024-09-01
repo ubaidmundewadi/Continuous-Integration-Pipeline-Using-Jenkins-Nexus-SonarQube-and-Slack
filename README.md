@@ -25,7 +25,7 @@ Before setting up the pipeline, ensure you have the following:
 ## Pipeline Configuration
 
 ### 1. **GitHub Integration**
-   - The pipeline is connected to a GitHub repository.
+   - The pipeline is connected to a GitHub repository. ( Fork this repository https://github.com/hkhcoder/vprofile-project.git for source code )
    - A **GitHub Webhook** is configured to trigger the Jenkins pipeline automatically whenever a new commit is pushed to the repository.
 
 ### 2. **Build Process**
