@@ -81,7 +81,7 @@ EOT
 
 systemctl daemon-reload
 systemctl enable sonarqube.service
-#systemctl start sonarqube.service
+systemctl start sonarqube.service
 #systemctl status -l sonarqube.service
 apt-get install nginx -y
 rm -rf /etc/nginx/sites-enabled/default
